@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in e Check-out de Passageiros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Check-in e Check-out de Passageiros</h1>
+        </header>
+        
+        <section class="checkin-section">
+            <h2>Check-in</h2>
+            <form id="checkin-form">
+                <label for="passenger-name">Nome do Passageiro:</label>
+                <input type="text" id="passenger-name" required>
+                
+                <label for="bus-number">Número do Ônibus:</label>
+                <input type="text" id="bus-number" required>
+                
+                <button type="submit">Registrar Check-in</button>
+            </form>
+        </section>
+
+        <section class="checkout-section">
+            <h2>Histórico de Check-outs</h2>
+            <ul id="checkout-list">
+                <!-- Check-outs serão listados aqui -->
+            </ul>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
